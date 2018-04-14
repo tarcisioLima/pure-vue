@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div><p>Hellow World component</p></div>
 </template>
 
 <script>
