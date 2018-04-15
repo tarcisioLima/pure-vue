@@ -5,7 +5,7 @@
   "author": "tarcisio_thallys@hotmail.com",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --host $IP --port $PORT --public $C9_HOSTNAME --config build/webpack.dev.conf.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --host 0.0.0.0 --port 8082 --public 0.0.0.0 --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
